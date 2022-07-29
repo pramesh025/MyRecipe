@@ -1,10 +1,10 @@
-- name: 'Sending SMS Notification'
-  uses: twilio-labs/actions-sms@v1
-  with:
-    fromPhoneNumber: '+13252412861'
-    toPhoneNumber: '+9779861695815'
-    message: 'Hello from Twilio'
-  env:
-    TWILIO_ACCOUNT_SID: AC8420375f8405c422dda825d8bbb440b3
-    TWILIO_API_KEY: SK9b4710d10483251294624ef7c90a3fdc
-    TWILIO_API_SECRET: BG7lTk1tOoNsA8EwbNLhy9M0nQWbpAY1
+name: 'Sending SMS Notification'
+uses: twilio-labs/actions-sms@v1
+with:
+  fromPhoneNumber: '+13252412861'
+  toPhoneNumber: '+9779861695815'
+  message: 'Hello from Twilio'
+env:
+  TWILIO_ACCOUNT_SID: AC8420375f8405c422dda825d8bbb440b3
+  TWILIO_API_KEY: SK9b4710d10483251294624ef7c90a3fdc
+  TWILIO_API_SECRET: BG7lTk1tOoNsA8EwbNLhy9M0nQWbpAY1
