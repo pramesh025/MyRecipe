@@ -2,7 +2,7 @@ name: "Workflow"
 on: ["push"]
 jobs:
   send-sms:
-  - name: 'Sending SMS Notification'
+    name: 'Sending SMS Notification'
     uses: twilio-labs/actions-sms@v1
     with:
       fromPhoneNumber: '+13252412861'
